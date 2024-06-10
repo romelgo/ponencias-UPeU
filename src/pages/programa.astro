@@ -1,0 +1,86 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+
+  <Steps
+    id="resume"
+    title="Jueves 30 / Fernando Stahl "
+    items={[
+      {
+        title:`<span style="color: blue;"> Ponencia 01:</span> Emprendiendo mi Start UP Tecnologica <br />
+         <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+         <span class="text-sm font-normal">10:00 - am </span>`,
+        icon: 'tabler:briefcase',
+      },
+      {
+        title:`<span style="color: blue;"> Ponencia 02:</span> Emprendiendo mi Start UP Tecnologica <br />
+         <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+         <span class="text-sm font-normal">10:00 - am </span>`,
+        icon: 'tabler:briefcase',
+      },
+      {
+        title:`<span style="color: blue;"> Ponencia 03:</span> Emprendiendo mi Start UP Tecnologica <br />
+         <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+         <span class="text-sm font-normal">10:00 - am </span>`,
+        icon: 'tabler:briefcase',
+
+      },
+      {
+        title:`<span style="color: blue;"> Talleres Especializados:</span><br /> 
+         <span class="font-normal">Laboratorios de Escuelas Profesionales de Ingeniería</span> <br /> 
+         <span class="text-sm font-normal">02:00 pm a 6:00 pm </span>`,
+        icon: 'tabler:briefcase',
+        
+      },
+      {
+        title:`<span style="color: blue;"> Ponencia 04 - Virtual:</span> Emprendiendo mi Start UP Tecnologica <br />
+         <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+         <span class="text-sm font-normal">10:00 - am </span>`,
+        icon: 'tabler:briefcase',
+
+      },
+       
+      
+    ]}
+    classes={{ container: 'max-w-3xl' }}
+  />
+
+    <Steps
+      id="resume"
+      title="Jueves 31 / Fernando Stahl "
+      items={[
+        {
+          title:`<span style="color: blue;"> Ponencia 01:</span> Emprendiendo mi Start UP Tecnologica <br />
+          <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+          <span class="text-sm font-normal">10:00 - am </span>`,
+          icon: 'tabler:briefcase',
+        },
+        {
+          title:`<span style="color: blue;"> Ponencia 02:</span> Emprendiendo mi Start UP Tecnologica <br />
+          <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+          <span class="text-sm font-normal">10:00 - am </span>`,
+          icon: 'tabler:briefcase',
+        },
+        {
+          title:`<span style="color: blue;"> Ponencia 03:</span> Emprendiendo mi Start UP Tecnologica <br />
+          <span class="font-normal">Admin Jimy E. Curo Mamani</span> <br /> 
+          <span class="text-sm font-normal">10:00 - am </span>`,
+          icon: 'tabler:briefcase',
+
+        },
+      ]}
+      classes={{ container: 'max-w-3xl' }}
+    />
+</Layout>
