@@ -5,44 +5,42 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: 'Inscríbete ya!!',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="inscripción" title="Inscríbete ya!!" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
-    inputs={[
+      inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Nombre',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'Correo electronico',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Mensage',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Al enviar este formulario de contacto, usted reconoce y acepta la recopilación de su información personal.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Nuestro equipo de soporte normalmente responde dentro de las 2 horas hábiles."
   />
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
+<!-- <Features2
     title="We are here to help!"
     items={[
       {
@@ -75,5 +73,5 @@ const metadata = {
         icon: 'tabler:map-pin',
       },
     ]}
-  />
+  /> -->
 </Layout>

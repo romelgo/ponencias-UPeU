@@ -1,5 +1,5 @@
 site:
-  name: Campus UPeU
+  name: Simposio UPeU
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
