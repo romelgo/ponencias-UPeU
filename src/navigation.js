@@ -50,12 +50,12 @@ export const headerData = {
           href: getPermalink('/landing/romel'),
         },
         {
-          text: 'Morial Obliatas',
-          href: getPermalink('/landing/sales'),
+          text: 'Morelia Oblitas',
+          href: getPermalink('/landing/morelia'),
         },
         {
-          text: 'Darwin Condori',
-          href: getPermalink('/landing/click-through'),
+          text: 'Darwin Condori (terruco)',
+          href: getPermalink('/landing/darwin'),
         },
        /*  {
           text: 'Product Details (or Services)',
@@ -127,9 +127,9 @@ export const footerData = {
     {
       title: 'Participantes',
       links: [
-        { text: 'Romel', href: '/landing/romel' },
-        { text: 'Morelia', href: '#' },
-        { text: 'Darwin', href: '#' },
+        { text: 'Romel Gutierrez', href: '/landing/romel' },
+        { text: 'Morelia Oblitas', href: '#' },
+        { text: 'Darwin Condori', href: '#' },
         
       ],
     },

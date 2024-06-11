@@ -1,0 +1,28 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Darwin Conodori',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Darwin Conodori"
+    title="Mí Aprendizaje y Experiencia en el Simposio de Innovación FIA"
+    subtitle="Durante el simposio, tuve la oportunidad de asistir a todas las ponencias, las cuales me impactaron profundamente. Una de las más memorables trató sobre la aplicación de la inteligencia artificial en la optimización de procesos industriales. Esta ponencia me brindó una nueva perspectiva sobre cómo la tecnología puede revolucionar la ingeniería."
+    actions={[
+      
+    ]}
+    image={{
+      src: '~/assets/images/darwin.jpg',
+      alt: 'Children telling a story. Long-form Sales Landing Page demo',
+    }}
+  />
+
+</Layout>
