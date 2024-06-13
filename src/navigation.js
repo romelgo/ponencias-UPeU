@@ -54,7 +54,7 @@ export const headerData = {
           href: getPermalink('/landing/morelia'),
         },
         {
-          text: 'Darwin Condori (terruco)',
+          text: 'Darwin Condori',
           href: getPermalink('/landing/darwin'),
         },
        /*  {
@@ -128,8 +128,8 @@ export const footerData = {
       title: 'Participantes',
       links: [
         { text: 'Romel Gutierrez', href: '/landing/romel' },
-        { text: 'Morelia Oblitas', href: '#' },
-        { text: 'Darwin Condori', href: '#' },
+        { text: 'Morelia Oblitas', href: '/landing/morelia' },
+        { text: 'Darwin Condori', href: '/landing/darwin' },
         
       ],
     },

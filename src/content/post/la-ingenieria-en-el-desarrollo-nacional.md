@@ -45,7 +45,7 @@ Presidente del Directorio de Compañía de Minas Buenaventura S.A.A.
 
 ### Datos de Contacto
 
-- **LinkedIn:** https://www.linkedin.com/in/roque-benavides-ganoza-298a4246/
+- **LinkedIn:** [Roque-Benavides](https://www.linkedin.com/in/roque-benavides-ganoza-298a4246/)
 
 ---
 
