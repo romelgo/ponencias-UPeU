@@ -11,6 +11,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogHighlightedPosts from '~/components/widgets/BlogHighlightedPosts.astro';
 
 const metadata = {
   title: 'Simposio II - Campus Juliaca',
@@ -26,14 +27,14 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Ponentes',
-        href: '#ponentes',
+        href: '#BlogLatestPosts',
         
         
       },
       { text: 'Talleres', href: '#features' },
     ]}
 
-    image={{ src: '~/assets/images/simposio.jpg', alt: 'Simposio de innovacion' }}
+    
     
   >
     <Fragment slot="title">
@@ -47,8 +48,32 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
+  
+    <!-- HighlightedPosts Widget ******* -->
 
+    <BlogLatestPosts
+    id="BlogLatestPosts"
+    title="Ver Detalles de todas las ponencias:"
+    
+   
+  />
+ 
+
+   <!-- CallToAction Widget *********** -->
+
+   <CallToAction
+   actions={[
+     {
+       variant: 'primary',
+       text: 'Ver más Ponencias',
+       href: '/blog',
+     },
+   ]}
+ >
+
+ </CallToAction>
+  <!-- Note Widget ******************* -->
+   
   <Note />
 
   <!-- Features Widget *************** -->
@@ -312,15 +337,7 @@ const metadata = {
     </Fragment>
   </Features2> -->
 
-  <!-- HighlightedPosts Widget ******* -->
 
-  <!-- <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  /> -->
 
   <!-- FAQs Widget ******************* -->
 
